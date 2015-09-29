@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5637C9721BBA6AC400FBF313 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5637C9711BBA6AC400FBF313 /* AppDelegate.m */; };
+		5637C9741BBA6AC400FBF313 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5637C9731BBA6AC400FBF313 /* main.m */; };
+		5637C9761BBA6AC400FBF313 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5637C9751BBA6AC400FBF313 /* Images.xcassets */; };
+		5637C9791BBA6AC400FBF313 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5637C9771BBA6AC400FBF313 /* MainMenu.xib */; };
+		5637C9851BBA6AC400FBF313 /* SmouzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5637C9841BBA6AC400FBF313 /* SmouzTests.m */; };
+		5637C9901BBA6F0800FBF313 /* SmouzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5637C98F1BBA6F0800FBF313 /* SmouzView.m */; };
+		5637C9931BBA8D9900FBF313 /* README.markdown in Sources */ = {isa = PBXBuildFile; fileRef = 5637C9911BBA8D9900FBF313 /* README.markdown */; };
+		5637C9941BBA8D9900FBF313 /* LICENSE-BSD.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5637C9921BBA8D9900FBF313 /* LICENSE-BSD.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5637C97F1BBA6AC400FBF313 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5637C9631BBA6AC400FBF313 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5637C96A1BBA6AC400FBF313;
+			remoteInfo = Smouz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5637C96B1BBA6AC400FBF313 /* Smouz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smouz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5637C96F1BBA6AC400FBF313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5637C9701BBA6AC400FBF313 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5637C9711BBA6AC400FBF313 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5637C9731BBA6AC400FBF313 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5637C9751BBA6AC400FBF313 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5637C9781BBA6AC400FBF313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5637C97E1BBA6AC400FBF313 /* SmouzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmouzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5637C9831BBA6AC400FBF313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5637C9841BBA6AC400FBF313 /* SmouzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmouzTests.m; sourceTree = "<group>"; };
+		5637C98E1BBA6F0800FBF313 /* SmouzView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmouzView.h; sourceTree = "<group>"; };
+		5637C98F1BBA6F0800FBF313 /* SmouzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmouzView.m; sourceTree = "<group>"; };
+		5637C9911BBA8D9900FBF313 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
+		5637C9921BBA8D9900FBF313 /* LICENSE-BSD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LICENSE-BSD.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5637C9681BBA6AC400FBF313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5637C97B1BBA6AC400FBF313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5637C9621BBA6AC400FBF313 = {
+			isa = PBXGroup;
+			children = (
+				5637C9911BBA8D9900FBF313 /* README.markdown */,
+				5637C9921BBA8D9900FBF313 /* LICENSE-BSD.txt */,
+				5637C96D1BBA6AC400FBF313 /* Smouz */,
+				5637C9811BBA6AC400FBF313 /* SmouzTests */,
+				5637C96C1BBA6AC400FBF313 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5637C96C1BBA6AC400FBF313 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5637C96B1BBA6AC400FBF313 /* Smouz.app */,
+				5637C97E1BBA6AC400FBF313 /* SmouzTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5637C96D1BBA6AC400FBF313 /* Smouz */ = {
+			isa = PBXGroup;
+			children = (
+				5637C9701BBA6AC400FBF313 /* AppDelegate.h */,
+				5637C9711BBA6AC400FBF313 /* AppDelegate.m */,
+				5637C98E1BBA6F0800FBF313 /* SmouzView.h */,
+				5637C98F1BBA6F0800FBF313 /* SmouzView.m */,
+				5637C9751BBA6AC400FBF313 /* Images.xcassets */,
+				5637C9771BBA6AC400FBF313 /* MainMenu.xib */,
+				5637C96E1BBA6AC400FBF313 /* Supporting Files */,
+			);
+			path = Smouz;
+			sourceTree = "<group>";
+		};
+		5637C96E1BBA6AC400FBF313 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5637C96F1BBA6AC400FBF313 /* Info.plist */,
+				5637C9731BBA6AC400FBF313 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5637C9811BBA6AC400FBF313 /* SmouzTests */ = {
+			isa = PBXGroup;
+			children = (
+				5637C9841BBA6AC400FBF313 /* SmouzTests.m */,
+				5637C9821BBA6AC400FBF313 /* Supporting Files */,
+			);
+			path = SmouzTests;
+			sourceTree = "<group>";
+		};
+		5637C9821BBA6AC400FBF313 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5637C9831BBA6AC400FBF313 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5637C96A1BBA6AC400FBF313 /* Smouz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5637C9881BBA6AC400FBF313 /* Build configuration list for PBXNativeTarget "Smouz" */;
+			buildPhases = (
+				5637C9671BBA6AC400FBF313 /* Sources */,
+				5637C9681BBA6AC400FBF313 /* Frameworks */,
+				5637C9691BBA6AC400FBF313 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smouz;
+			productName = Smouz;
+			productReference = 5637C96B1BBA6AC400FBF313 /* Smouz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5637C97D1BBA6AC400FBF313 /* SmouzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5637C98B1BBA6AC400FBF313 /* Build configuration list for PBXNativeTarget "SmouzTests" */;
+			buildPhases = (
+				5637C97A1BBA6AC400FBF313 /* Sources */,
+				5637C97B1BBA6AC400FBF313 /* Frameworks */,
+				5637C97C1BBA6AC400FBF313 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5637C9801BBA6AC400FBF313 /* PBXTargetDependency */,
+			);
+			name = SmouzTests;
+			productName = SmouzTests;
+			productReference = 5637C97E1BBA6AC400FBF313 /* SmouzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5637C9631BBA6AC400FBF313 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Charles Parnot";
+				TargetAttributes = {
+					5637C96A1BBA6AC400FBF313 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					5637C97D1BBA6AC400FBF313 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 5637C96A1BBA6AC400FBF313;
+					};
+				};
+			};
+			buildConfigurationList = 5637C9661BBA6AC400FBF313 /* Build configuration list for PBXProject "Smouz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5637C9621BBA6AC400FBF313;
+			productRefGroup = 5637C96C1BBA6AC400FBF313 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5637C96A1BBA6AC400FBF313 /* Smouz */,
+				5637C97D1BBA6AC400FBF313 /* SmouzTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5637C9691BBA6AC400FBF313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5637C9941BBA8D9900FBF313 /* LICENSE-BSD.txt in Resources */,
+				5637C9761BBA6AC400FBF313 /* Images.xcassets in Resources */,
+				5637C9791BBA6AC400FBF313 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5637C97C1BBA6AC400FBF313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5637C9671BBA6AC400FBF313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5637C9741BBA6AC400FBF313 /* main.m in Sources */,
+				5637C9721BBA6AC400FBF313 /* AppDelegate.m in Sources */,
+				5637C9931BBA8D9900FBF313 /* README.markdown in Sources */,
+				5637C9901BBA6F0800FBF313 /* SmouzView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5637C97A1BBA6AC400FBF313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5637C9851BBA6AC400FBF313 /* SmouzTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5637C9801BBA6AC400FBF313 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5637C96A1BBA6AC400FBF313 /* Smouz */;
+			targetProxy = 5637C97F1BBA6AC400FBF313 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5637C9771BBA6AC400FBF313 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5637C9781BBA6AC400FBF313 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5637C9861BBA6AC400FBF313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5637C9871BBA6AC400FBF313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5637C9891BBA6AC400FBF313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Smouz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5637C98A1BBA6AC400FBF313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Smouz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5637C98C1BBA6AC400FBF313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmouzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smouz.app/Contents/MacOS/Smouz";
+			};
+			name = Debug;
+		};
+		5637C98D1BBA6AC400FBF313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmouzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smouz.app/Contents/MacOS/Smouz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5637C9661BBA6AC400FBF313 /* Build configuration list for PBXProject "Smouz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5637C9861BBA6AC400FBF313 /* Debug */,
+				5637C9871BBA6AC400FBF313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5637C9881BBA6AC400FBF313 /* Build configuration list for PBXNativeTarget "Smouz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5637C9891BBA6AC400FBF313 /* Debug */,
+				5637C98A1BBA6AC400FBF313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5637C98B1BBA6AC400FBF313 /* Build configuration list for PBXNativeTarget "SmouzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5637C98C1BBA6AC400FBF313 /* Debug */,
+				5637C98D1BBA6AC400FBF313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5637C9631BBA6AC400FBF313 /* Project object */;
+}
