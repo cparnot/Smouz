@@ -15,6 +15,7 @@
 		5637C9901BBA6F0800FBF313 /* SmouzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5637C98F1BBA6F0800FBF313 /* SmouzView.m */; };
 		5637C9931BBA8D9900FBF313 /* README.markdown in Sources */ = {isa = PBXBuildFile; fileRef = 5637C9911BBA8D9900FBF313 /* README.markdown */; };
 		5637C9941BBA8D9900FBF313 /* LICENSE-BSD.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5637C9921BBA8D9900FBF313 /* LICENSE-BSD.txt */; };
+		5637C9971BBBBB3200FBF313 /* NSBezierPath+Smouz.m in Sources */ = {isa = PBXBuildFile; fileRef = 5637C9961BBBBB3200FBF313 /* NSBezierPath+Smouz.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		5637C98F1BBA6F0800FBF313 /* SmouzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmouzView.m; sourceTree = "<group>"; };
 		5637C9911BBA8D9900FBF313 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
 		5637C9921BBA8D9900FBF313 /* LICENSE-BSD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LICENSE-BSD.txt"; sourceTree = "<group>"; };
+		5637C9951BBBBB3200FBF313 /* NSBezierPath+Smouz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+Smouz.h"; sourceTree = "<group>"; };
+		5637C9961BBBBB3200FBF313 /* NSBezierPath+Smouz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+Smouz.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				5637C9711BBA6AC400FBF313 /* AppDelegate.m */,
 				5637C98E1BBA6F0800FBF313 /* SmouzView.h */,
 				5637C98F1BBA6F0800FBF313 /* SmouzView.m */,
+				5637C9951BBBBB3200FBF313 /* NSBezierPath+Smouz.h */,
+				5637C9961BBBBB3200FBF313 /* NSBezierPath+Smouz.m */,
 				5637C9751BBA6AC400FBF313 /* Images.xcassets */,
 				5637C9771BBA6AC400FBF313 /* MainMenu.xib */,
 				5637C96E1BBA6AC400FBF313 /* Supporting Files */,
@@ -226,6 +231,7 @@
 				5637C9721BBA6AC400FBF313 /* AppDelegate.m in Sources */,
 				5637C9931BBA8D9900FBF313 /* README.markdown in Sources */,
 				5637C9901BBA6F0800FBF313 /* SmouzView.m in Sources */,
+				5637C9971BBBBB3200FBF313 /* NSBezierPath+Smouz.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

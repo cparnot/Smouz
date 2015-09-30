@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F5BB53F6-E293-492F-9DE9-EEB3B3C00852</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9C169F8A55D219E8D208552BA89B23C9A4231928</key>
+		<string>https://github.com/cparnot/Smouz.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Smouz.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9C169F8A55D219E8D208552BA89B23C9A4231928</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/cparnot/Smouz.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9C169F8A55D219E8D208552BA89B23C9A4231928</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9C169F8A55D219E8D208552BA89B23C9A4231928</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Smouz</string>
+		</dict>
+	</array>
+</dict>
+</plist>
